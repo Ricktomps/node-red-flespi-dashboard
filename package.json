@@ -1,0 +1,11 @@
+{
+  "name": "node-red-flespi-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node-red -u . flows.json"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-dashboard": "^3.5.0"
+  }
+}
